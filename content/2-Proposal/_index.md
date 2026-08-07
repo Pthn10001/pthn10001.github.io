@@ -6,7 +6,6 @@ chapter: false
 pre: " <b> 2. </b> "
 ---
 
-# Proposal
 ## Deploying Kotaemon RAG Chat on AWS
 
 ---
