@@ -6,8 +6,8 @@ chapter: false
 pre: " <b> 7. </b> "
 ---
 
-# CHIA SẺ TRẢI NGHIỆM VÀ ĐÓNG GÓP Ý KIẾN
-## Chương trình Workforce Bootcamp – First Cloud AI Journey (FCAJ 2026)
+## Chia sẻ trải nghiệm và đóng góp ý kiến
+### Chương trình Workforce Bootcamp – First Cloud AI Journey (FCAJ 2026)
 
 {{% notice note %}}
 **Lời tri ân:** Chương trình **First Cloud AI Journey (FCAJ)** là một hành trình học tập và trải nghiệm nghề nghiệp vô cùng ý nghĩa trên con đường theo đuổi lĩnh vực **Điện toán đám mây & Trí tuệ nhân tạo**. Tôi xin gửi lời cảm ơn chân thành đến **Ban tổ chức FCAJ, các Quý Diễn giả, Trường Đại học Sài Gòn** và đặc biệt là **các anh chị Mentor AWS** đã luôn tận tâm định hướng, chia sẻ kinh nghiệm thực tế và tạo điều kiện thuận lợi nhất cho sinh viên phát triển năng lực.

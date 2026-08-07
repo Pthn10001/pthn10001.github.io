@@ -6,8 +6,8 @@ chapter: false
 pre: " <b> 7. </b> "
 ---
 
-# INTERNSHIP EXPERIENCE SHARING & CONSTRUCTIVE FEEDBACK
-## Workforce Bootcamp – First Cloud AI Journey (FCAJ 2026)
+## Internship Experience Sharing & Constructive Feedback
+### Workforce Bootcamp – First Cloud AI Journey (FCAJ 2026)
 
 {{% notice note %}}
 **Appreciation Statement:** The **First Cloud AI Journey (FCAJ)** program has been an immensely rewarding and transformative milestone in my academic and professional development. I would like to express my sincere gratitude to the **FCAJ Organizing Committee, Guest Speakers, Saigon University (SGU)**, and especially our dedicated **AWS Mentors** for their continuous guidance, technical insights, and supportive mentorship throughout the 8-week internship.
