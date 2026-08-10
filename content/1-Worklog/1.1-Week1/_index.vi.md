@@ -15,24 +15,19 @@ pre: " <b> 1.1. </b> "
 ### Các công việc trong tuần 1:
 | Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Kết nối với các anh chị mentor của AWS FCAJ và các thành viên FCAJ <br> - Đọc kỹ lưu ý các nội quy, hướng dẫn và quy định tại đơn vị thực tập                                                                                             | 22/06/2026   | 22/06/2026      |[Nội quy - Hướng dẫn](https://hcm-rules.awsfcaj.com/)|
-| 3   | - Học cách tạo Workshop: <br>&emsp; + Cài đặt và làm quen với Hugo <br>&emsp; + Tạo workshop trên VS Code với template mẫu <br> - Thực hành vẽ kiến trúc AWS trên drawio.io                                            | 23/06/2026   | 23/06/2026      | [Youtube AWS Study Group](https://www.youtube.com/@AWSStudyGroup) <br> [Template Workshop](https://github.com/thienluhoan/fcj-workshop-template.git) |
-| 4   | - Tìm hiểu tổng quan kiến thức cơ bản về AWS (Module 01): <br>&emsp; + Cung cấp kiến thức nền tảng về điện toán đám mây, lợi thế của AWS, lộ trình chuyển đổi và kiến trúc hạ tầng toàn cầu <br>&emsp; + Hướng dẫn cách sử dụng các công cụ quản lý tài nguyên AWS và những phương pháp tối ưu hóa chi phí hiệu quả | 24/06/2026   | 24/06/2026      | [Youtube AWS Study Group](https://www.youtube.com/@AWSStudyGroup) |
-| 5   | - **Thực hành:** <br>&emsp; + Thực hành Lab 1: Tạo mới tài khoản AWS <br>&emsp; + Thực hành Lab 2: Quản lý mức chi phí sử dụng trên AWS với AWS Budgets <br>&emsp; + Thực hành Lab 3: Yêu cầu hỗ trợ với AWS Support                  | 25/06/2026   | 25/06/2026      | [Lab 1](https://000001.awsstudygroup.com/vi/) <br> [Lab 2](https://000007.awsstudygroup.com/vi/) <br> [Lab 3](https://000009.awsstudygroup.com/vi/) |
-| 6   | - Tìm hiểu kiến thức về AWS VPC và các dịch vụ định tuyến, cân bằng tải (Module 02): <br>&emsp; + AWS Virtual Private Cloud (VPC) và Bảo mật VPC <br>&emsp; + VPN, DirectConnect, Load Balancer                    | 26/06/2026   | 26/06/2026      | [Youtube AWS Study Group](https://www.youtube.com/@AWSStudyGroup) |
+| 2   | - Gặp gỡ, làm quen với đội ngũ Mentor và các bạn trong dự án FCAJ <br> - Đọc kỹ sổ tay hướng dẫn, quy định nội bộ và văn hoá làm việc                                                                                             | 22/06/2026   | 22/06/2026      |[Nội quy - Hướng dẫn](https://hcm-rules.awsfcaj.com/)|
+| 3   | - Bắt tay vào xây dựng trang Workshop cá nhân: <br>&emsp; + Cài đặt Framework Hugo <br>&emsp; + Tuỳ biến template Workshop trên VS Code <br> - Tập vẽ các sơ đồ kiến trúc hạ tầng mạng cơ bản bằng draw.io                                            | 23/06/2026   | 23/06/2026      | [Youtube AWS Study Group](https://www.youtube.com/@AWSStudyGroup) <br> [Template Workshop](https://github.com/thienluhoan/fcj-workshop-template.git) |
+| 4   | - Ôn tập lý thuyết nền tảng (Module 01): <br>&emsp; + Nắm vững các khái niệm về Cloud Computing, lợi ích khi dùng AWS và kiến trúc toàn cầu của AWS <br>&emsp; + Tìm hiểu các phương pháp quản lý tài nguyên và tối ưu hoá chi phí hiệu quả | 24/06/2026   | 24/06/2026      | [Youtube AWS Study Group](https://www.youtube.com/@AWSStudyGroup) |
+| 5   | - **Thực hành thực tế:** <br>&emsp; + Lab 1: Mở tài khoản AWS Free Tier <br>&emsp; + Lab 2: Thiết lập cảnh báo chi phí bằng AWS Budgets <br>&emsp; + Lab 3: Thao tác tạo ticket nhờ AWS Support hỗ trợ                  | 25/06/2026   | 25/06/2026      | [Lab 1](https://000001.awsstudygroup.com/vi/) <br> [Lab 2](https://000007.awsstudygroup.com/vi/) <br> [Lab 3](https://000009.awsstudygroup.com/vi/) |
+| 6   | - Nghiên cứu chuyên sâu về Mạng và Cân bằng tải (Module 02): <br>&emsp; + Tìm hiểu Amazon VPC và các cơ chế bảo mật (Security Group, NACL) <br>&emsp; + Kiến thức về VPN, Direct Connect và Elastic Load Balancing (ELB)                    | 26/06/2026   | 26/06/2026      | [Youtube AWS Study Group](https://www.youtube.com/@AWSStudyGroup) |
 
 
 ### Kết quả đạt được tuần 1:
 
-* **Kết nối:** Nắm rõ các nội quy, hướng dẫn của đơn vị thực tập và kết nối thành công với đội ngũ mentor cũng như các thành viên thuộc dự án AWS FCAJ.
-
-* **Công cụ:** Cài đặt và thao tác thành công việc tạo workshop bằng Hugo trên VS Code, đồng thời làm quen với việc thiết kế sơ đồ kiến trúc AWS trên draw.io.
-
-* **Kiến thức lý thuyết AWS:**
-  * Nắm vững các khái niệm nền tảng về điện toán đám mây, kiến trúc hạ tầng toàn cầu, công cụ quản lý tài nguyên và phương pháp tối ưu hóa chi phí trên AWS (Module 01).
-  * Hiểu rõ kiến trúc mạng riêng ảo (VPC), các tính năng bảo mật mạng và các dịch vụ kết nối, định tuyến, phân tải như VPN, DirectConnect, Load Balancer (Module 02).
-
-* **Thực hành:** Hoàn thành các bài Lab cấu hình thực tế: Khởi tạo tài khoản AWS, thiết lập quản lý ngân sách (AWS Budgets) và thao tác tạo yêu cầu hỗ trợ (AWS Support).
+* **Hòa nhập & Kết nối:** Làm quen với văn hoá dự án AWS FCAJ, nắm vững các quy định nội bộ và kết nối suôn sẻ với đội ngũ Mentor cùng các thành viên khác.
+* **Làm chủ công cụ:** Tự tay cài đặt, cấu hình Framework Hugo trên VS Code để dựng trang Workshop cá nhân và làm quen với công cụ thiết kế kiến trúc draw.io.
+* **Xây dựng nền tảng lý thuyết:** Hiểu bản chất điện toán đám mây, kiến trúc toàn cầu của AWS và cách tối ưu chi phí (Module 01). Đi sâu vào mô hình mạng riêng ảo VPC, cấu trúc bảo mật (Security Group, NACL) và các giải pháp cân bằng tải, kết nối (Module 02).
+* **Kinh nghiệm thực tiễn:** Tự đăng ký và thiết lập thành công tài khoản AWS Free Tier, cấu hình cảnh báo chi phí (AWS Budgets) và trải nghiệm quy trình tạo ticket nhờ AWS Support hỗ trợ.
 
 
 
