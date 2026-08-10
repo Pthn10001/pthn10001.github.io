@@ -64,23 +64,11 @@ The system consists of two main flows:
 1. **Document ingestion and indexing:** Users upload PDF files or provide URLs. The system normalizes the content, splits it into chunks of approximately 1,024 tokens with a 256-token overlap, creates Gemini embeddings, and stores the data for retrieval.
 2. **Question answering:** The system performs hybrid retrieval using vector and full-text search, selects relevant chunks, constructs context, and sends it to the chat model to generate an answer with source citations.
 
-```mermaid
-flowchart TD
-    subgraph IngestionFlow [" 1. Document Ingestion and Indexing Flow "]
-        A[Users upload PDF / URLs] --> B[Extract and Normalize Content]
-        B --> C[Chunking: 1,024 tokens with 256 overlap]
-        C --> D[Create Embeddings via Gemini API]
-        D --> E[(Store data for retrieval on EBS)]
-    end
-
-    subgraph QueryFlow [" 2. Question Answering Flow "]
-        Q[User submits question] --> H[Hybrid Search: Vector + Full-Text]
-        E -.-> H
-        H --> K[Retrieve Relevant Chunks & Build Context]
-        K --> L[Send Context Prompt to Gemini Chat Model]
-        L --> M[Generate Answer with Source Citations]
-    end
-```
+<p align="center">
+  <img src="/images/2-Proposal/rag_flow.png" alt="RAG Processing Flow">
+  <br/>
+  <i>RAG Processing Flow in the Project</i>
+</p>
 
 ---
 

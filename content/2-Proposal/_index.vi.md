@@ -64,23 +64,11 @@ Hệ thống RAG gồm hai luồng chính:
 1. **Nạp và lập chỉ mục tài liệu:** Người dùng tải PDF hoặc cung cấp URL. Hệ thống chuẩn hóa nội dung, chia tài liệu thành các đoạn khoảng 1.024 token với độ chồng lấn 256 token, tạo embedding bằng Gemini và lưu dữ liệu phục vụ truy xuất.
 2. **Hỏi đáp:** Khi nhận câu hỏi, hệ thống thực hiện hybrid search kết hợp vector search và full-text search, lấy các đoạn liên quan, xây dựng ngữ cảnh rồi gửi đến mô hình chat để sinh câu trả lời kèm nguồn trích dẫn.
 
-```mermaid
-flowchart TD
-    subgraph IngestionFlow [" 1. Luồng Nạp và Lập chỉ mục tài liệu "]
-        A[Người dùng tải PDF / URL] --> B[Chuẩn hóa nội dung văn bản]
-        B --> C[Chia đoạn 1.024 token - Overlap 256 token]
-        C --> D[Tạo Embedding bằng Gemini API]
-        D --> E[(Lưu trữ dữ liệu phục vụ truy xuất trên EBS)]
-    end
-
-    subgraph QueryFlow [" 2. Luồng Hỏi đáp "]
-        Q[Người dùng gửi câu hỏi] --> H[Hybrid Search: Vector Search + Full-Text Search]
-        E -.-> H
-        H --> K[Lấy các đoạn liên quan & Xây dựng ngữ cảnh]
-        K --> L[Gửi đến mô hình Chat Gemini]
-        L --> M[Sinh câu trả lời kèm Nguồn trích dẫn]
-    end
-```
+<p align="center">
+  <img src="/images/2-Proposal/rag_flow.png" alt="Luồng xử lý RAG">
+  <br/>
+  <i>Luồng xử lý RAG trong Project</i>
+</p>
 
 ---
 
