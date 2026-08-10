@@ -96,41 +96,17 @@ flowchart TD
 * **AWS Budgets:** Tracks project spending and warns when usage approaches the budget.
 * **Gemini API:** An external service used for chat and embeddings.
 
-```mermaid
-graph TB
-    subgraph Internet [" Users & Administration "]
-        User[Browser Client]
-        Admin[System Admin SSH]
-    end
+<p align="center">
+  <img src="/images/2-Proposal/architecture_1.png" alt="AWS Deployment Architecture">
+  <br/>
+  <i>Figure 1: High-level Architecture of the RAG Chat system on AWS</i>
+</p>
 
-    subgraph AWSCloud [" AWS Cloud Infrastructure "]
-        subgraph VPCNet [" Amazon VPC & Security Group "]
-            subgraph EC2Host [" Amazon EC2 Instance (t3.medium - Ubuntu) "]
-                Docker[" Docker Engine "]
-                App[" Kotaemon RAG Container\n(Container Port 7860) "]
-            end
-            EBS[(" Amazon EBS\n(Bind Mount Data Directory) ")]
-            IAM[" AWS IAM Role\n(Temporary Credentials) "]
-        end
-        
-        S3[(" Amazon S3 Private Bucket\n(Backup Storage) ")]
-        CW[" Amazon CloudWatch\n(EC2 Metrics & CPU Alarm) "]
-        Budget[" AWS Budgets\n(Budget Tracking & Alerts) "]
-    end
-
-    subgraph ExternalAI [" External Services "]
-        Gemini[" Gemini API\n(Chat & Embeddings) "]
-    end
-
-    User -->|HTTP Port 80 mapped to 7860| App
-    Admin -->|SSH Port 22| EC2Host
-    App <===>|Independent of container lifecycle| EBS
-    EC2Host -.->|IAM Role Backup Sync| S3
-    EC2Host -->|Stream Basic Metrics| CW
-    App <-->|API Calls| Gemini
-    Budget -.->|Warns on Approaching Budget| Admin
-```
-
+<p align="center">
+  <img src="/images/2-Proposal/architecture_2.png" alt="AWS Infrastructure Diagram">
+  <br/>
+  <i>Figure 2: Detailed Infrastructure Components and Data Flow</i>
+</p>
 ---
 
 ### 7. Scope

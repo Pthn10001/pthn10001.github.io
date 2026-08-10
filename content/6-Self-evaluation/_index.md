@@ -72,4 +72,4 @@ The program adopted a Blended Learning methodology combining structured in-perso
 
 ---
 
-> **Conclusion:** The internship under the **AWS Workforce Bootcamp – FCAJ** provided a deeply valuable and transformative professional experience. The **Good – Excellent** self-assessment is an honest reflection of my dedicated effort over the past 8 weeks, as well as a motivating foundation for lifelong learning in my cloud engineering career.
+> **Conclusion:** The internship under the **AWS Workforce Bootcamp – FCAJ** provided a deeply valuable and transformative professional experience. The **Good – Excellent (Khá - Tốt)** self-assessment is an honest reflection of my dedicated effort over the past 8 weeks, as well as a motivating foundation for lifelong learning in my cloud engineering career.

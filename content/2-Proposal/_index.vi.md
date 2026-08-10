@@ -96,42 +96,18 @@ flowchart TD
 * **AWS Budgets:** Theo dõi ngân sách và cảnh báo khi mức sử dụng tiến gần giới hạn.
 * **Gemini API:** Dịch vụ ngoài AWS đảm nhiệm chat và embedding.
 
-```mermaid
-graph TB
-    subgraph Internet [" Người Dùng & Quản Trị "]
-        User[Trình duyệt Người dùng]
-        Admin[Quản trị viên SSH]
-    end
+<p align="center">
+  <img src="/images/2-Proposal/architecture_1.png" alt="Kiến trúc AWS đang triển khai">
+  <br/>
+  <i>Hình 1: Kiến trúc tổng quan hệ thống RAG Chat trên AWS</i>
+</p>
 
-    subgraph AWSCloud [" Hạ Tầng AWS Cloud "]
-        subgraph VPCNet [" Amazon VPC & Security Group "]
-            subgraph EC2Host [" Amazon EC2 Instance (t3.medium - Ubuntu) "]
-                Docker[" Docker Engine "]
-                App[" Ứng dụng Kotaemon RAG Container\n(Cổng container 7860) "]
-            end
-            EBS[(" Amazon EBS\n(Bind Mount thư mục dữ liệu) ")]
-            IAM[" AWS IAM Role\n(Xác thực tạm thời) "]
-        end
-        
-        S3[(" Amazon S3 Bucket Riêng Tư\n(Lưu bản sao lưu dữ liệu) ")]
-        CW[" Amazon CloudWatch\n(Theo dõi chỉ số EC2 & Cảnh báo CPU) "]
-        Budget[" AWS Budgets\n(Theo dõi ngân sách & Cảnh báo) "]
-    end
+<p align="center">
+  <img src="/images/2-Proposal/architecture_2.png" alt="Sơ đồ kiến trúc hạ tầng AWS">
+  <br/>
+  <i>Hình 2: Sơ đồ chi tiết các thành phần hạ tầng và luồng kết nối</i>
+</p>
 
-    subgraph ExternalServices [" Dịch Vụ Ngoài AWS "]
-        Gemini[" Gemini API\n(Đảm nhiệm Chat & Embedding) "]
-    end
-
-    User -->|HTTP Cổng 80 ánh xạ 7860| App
-    Admin -->|SSH Cổng 22| EC2Host
-    App <===>|Tách khỏi vòng đời container| EBS
-    EC2Host -.->|IAM Role đồng bộ bản sao lưu| S3
-    EC2Host -->|Gửi chỉ số cơ bản| CW
-    App <-->|Gọi API| Gemini
-    Budget -.->|Cảnh báo tiến gần giới hạn| Admin
-```
-
----
 
 ### 7. Phạm Vi
 
