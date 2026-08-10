@@ -9,10 +9,6 @@ pre: " <b> 6. </b> "
 ## Internship Self-Assessment & Competency Development Report
 ### Workforce Bootcamp – First Cloud AI Journey (FCAJ 2026)
 
-{{% notice info %}}
-**Self-Assessment Statement:** The internship under the **First Cloud AI Journey (FCAJ)** program from **June 22, 2026, to August 12, 2026** served as an essential milestone in translating academic computer science principles into tangible engineering capabilities on the AWS Cloud. This self-assessment is synthesized with **rigor, integrity, self-awareness, and a continuous learning mindset**.
-{{% /notice %}}
-
 ---
 
 ### 1. Summary of Learning Journey & Professional Growth

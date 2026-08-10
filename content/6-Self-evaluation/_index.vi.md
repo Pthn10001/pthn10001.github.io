@@ -9,10 +9,6 @@ pre: " <b> 6. </b> "
 ## Bản tự đánh giá quá trình thực tập và phát triển năng lực
 ### Chương trình Workforce Bootcamp – First Cloud AI Journey (FCAJ 2026)
 
-{{% notice info %}}
-**Tuyên bố tự đánh giá:** Kỳ thực tập trong khuôn khổ chương trình **First Cloud AI Journey (FCAJ)** kéo dài từ ngày **22/06/2026 đến 12/08/2026** là một cột mốc quan trọng giúp tôi chuyển hóa kiến thức học thuật tại trường Đại học Sài Gòn thành năng lực thực chiến trên môi trường Điện toán đám mây AWS. Bản tự đánh giá này được tổng kết với tinh thần **trung thực, nghiêm túc, nhìn nhận đúng năng lực và cầu thị học hỏi**.
-{{% /notice %}}
-
 ---
 
 ### 1. Tổng kết hành trình học tập và rèn luyện
