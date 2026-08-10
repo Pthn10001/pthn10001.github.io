@@ -28,18 +28,18 @@ The program adopted a Blended Learning methodology combining structured in-perso
 
 | No. | Evaluation Criteria | Real-World Performance Evidence | Excellent | Good | Average |
 |:---:|:---|:---|:---:|:---:|:---:|
-| **1** | **Professional Knowledge & Skills** | Solid grasp of core AWS Cloud services, RAG principles, and containerization; effectively applied in labs and project deliverables | [ ] | ✅ | [ ] |
-| **2** | **Learning Agility & Research** | Quick absorption of cutting-edge Generative AI and Vector Search concepts; proactive study of official AWS technical documentation | ✅ | [ ] | [ ] |
-| **3** | **Proactiveness & Initiative** | Self-directed study planning, lab environment provisioning, and persistent storage research without needing micro-guidance | ✅ | [ ] | [ ] |
-| **4** | **Sense of Responsibility** | Consistent adherence to weekly milestone deliverables, meticulous task execution, and clear verification of experimental evidence | [ ] | ✅ | [ ] |
-| **5** | **Discipline & Diligence** | Full attendance at scheduled sessions, strict compliance with program guidelines, and disciplined daily self-study habits | ✅ | [ ] | [ ] |
-| **6** | **Growth Mindset & Receptiveness** | Open reception to mentor feedback and peer suggestions; prompt method adjustments upon recognizing technical gaps | ✅ | [ ] | [ ] |
-| **7** | **Communication & Reporting** | Articulate technical idea presentation, timely progress tracking, and structured operational bug reporting | [ ] | ✅ | [ ] |
-| **8** | **Teamwork & Collaboration** | Constructive collaboration, active knowledge and document sharing, and mutual support across project milestones | [ ] | ✅ | [ ] |
-| **9** | **Professional Conduct** | Respectful, courteous, and professional demeanor toward mentors, instructors, and peers within an enterprise learning environment | ✅ | [ ] | [ ] |
-| **10** | **Problem-Solving & Analytical Thinking** | Systematic Root Cause Analysis (RCA), step-by-step hypothesis validation, and well-reasoned troubleshooting approaches | [ ] | ✅ | [ ] |
-| **11** | **Contribution to the Project** | Concrete contributions to architecture design, 24-point test suite execution, security configurations, and bilingual Workshop writing | [ ] | ✅ | [ ] |
-| **12** | **Overall Internship Performance** | Complete fulfillment of internship objectives and notable professional maturity in cloud systems thinking | [ ] | ✅ | [ ] |
+| **1** | **Professional Knowledge & Skills** | Solid grasp of core AWS Cloud services, RAG principles, and containerization; effectively applied in labs and project deliverables | ⬜ | ✅ | ⬜ |
+| **2** | **Learning Agility & Research** | Quick absorption of cutting-edge Generative AI and Vector Search concepts; proactive study of official AWS technical documentation | ✅ | ⬜ | ⬜ |
+| **3** | **Proactiveness & Initiative** | Self-directed study planning, lab environment provisioning, and persistent storage research without needing micro-guidance | ✅ | ⬜ | ⬜ |
+| **4** | **Sense of Responsibility** | Consistent adherence to weekly milestone deliverables, meticulous task execution, and clear verification of experimental evidence | ⬜ | ✅ | ⬜ |
+| **5** | **Discipline & Diligence** | Full attendance at scheduled sessions, strict compliance with program guidelines, and disciplined daily self-study habits | ✅ | ⬜ | ⬜ |
+| **6** | **Growth Mindset & Receptiveness** | Open reception to mentor feedback and peer suggestions; prompt method adjustments upon recognizing technical gaps | ✅ | ⬜ | ⬜ |
+| **7** | **Communication & Reporting** | Articulate technical idea presentation, timely progress tracking, and structured operational bug reporting | ⬜ | ✅ | ⬜ |
+| **8** | **Teamwork & Collaboration** | Constructive collaboration, active knowledge and document sharing, and mutual support across project milestones | ⬜ | ✅ | ⬜ |
+| **9** | **Professional Conduct** | Respectful, courteous, and professional demeanor toward mentors, instructors, and peers within an enterprise learning environment | ✅ | ⬜ | ⬜ |
+| **10** | **Problem-Solving & Analytical Thinking** | Systematic Root Cause Analysis (RCA), step-by-step hypothesis validation, and well-reasoned troubleshooting approaches | ⬜ | ✅ | ⬜ |
+| **11** | **Contribution to the Project** | Concrete contributions to architecture design, 24-point test suite execution, security configurations, and bilingual Workshop writing | ⬜ | ✅ | ⬜ |
+| **12** | **Overall Internship Performance** | Complete fulfillment of internship objectives and notable professional maturity in cloud systems thinking | ⬜ | ✅ | ⬜ |
 
 ---
 

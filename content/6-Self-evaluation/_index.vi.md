@@ -28,18 +28,18 @@ Chương trình được tổ chức theo mô hình kết hợp (Blended Learnin
 
 | STT | Tiêu chí đánh giá | Nội dung đối chiếu thực tế | Tốt | Khá | Trung bình |
 |:---:|:---|:---|:---:|:---:|:---:|
-| **1** | **Kiến thức và kỹ năng chuyên môn** | Nắm vững nguyên lý cốt lõi về AWS Cloud, mô hình RAG và quy trình đóng gói container; áp dụng hiệu quả vào bài lab và đề án | [ ] | ✅ | [ ] |
-| **2** | **Khả năng học hỏi và tiếp thu** | Nhạy bén với công nghệ mới (Generative AI, Vector Database), chủ động nghiên cứu tài liệu kỹ thuật tiếng Anh chính thống | ✅ | [ ] | [ ] |
-| **3** | **Tính chủ động trong công việc** | Tự giác lập kế hoạch cá nhân, chuẩn bị môi trường lab, tìm hiểu kiến trúc lưu trữ bền vững mà không phụ thuộc chỉ dẫn từng bước | ✅ | [ ] | [ ] |
-| **4** | **Tinh thần trách nhiệm** | Theo dõi sát sao tiến độ tuần, hoàn tất đầy đủ nhiệm vụ được giao và đối soát bằng chứng kết quả cẩn trọng | [ ] | ✅ | [ ] |
-| **5** | **Ý thức kỷ luật và chuyên cần** | Chấp hành đúng quy định chương trình, tham gia đầy đủ các buổi hướng dẫn và duy trì lịch tự học tại nhà đều đặn | ✅ | [ ] | [ ] |
-| **6** | **Tính cầu tiến và tiếp thu góp ý** | Lắng nghe phản hồi từ Mentor và đồng đội, thẳng thắn nhìn nhận hạn chế để điều chỉnh phương pháp làm việc nhanh chóng | ✅ | [ ] | [ ] |
-| **7** | **Kỹ năng giao tiếp và báo cáo** | Trình bày mạch lạc ý tưởng kỹ thuật, báo cáo tiến độ đúng hẹn và mô tả vấn đề/lỗi vận hành rõ ràng | [ ] | ✅ | [ ] |
-| **8** | **Kỹ năng làm việc nhóm** | Hợp tác tích cực, chia sẻ tài liệu, trao đổi giải pháp cởi mở và hỗ trợ các thành viên hoàn thành mục tiêu chung | [ ] | ✅ | [ ] |
-| **9** | **Tác phong ứng xử chuyên nghiệp** | Thể hiện thái độ tôn trọng, lịch thiệp, giữ gìn uy tín tập thể và tuân thủ văn hóa ứng xử trong môi trường doanh nghiệp | ✅ | [ ] | [ ] |
-| **10** | **Tư duy giải quyết vấn đề** | Phân tích nguyên nhân gốc rễ (RCA), kiểm tra giả thuyết từng bước và đưa ra phương án xử lý sự cố có cơ sở | [ ] | ✅ | [ ] |
-| **11** | **Mức độ đóng góp vào đề tài** | Đóng góp thực tế vào kiến trúc giải pháp, kiểm thử 24 testcase, cấu hình bảo mật và xây dựng tài liệu Workshop song ngữ | [ ] | ✅ | [ ] |
-| **12** | **Đánh giá tổng thể quá trình** | Mức độ hoàn thành trọn vẹn mục tiêu thực tập và sự tiến bộ rõ rệt về tư duy kỹ thuật đám mây | [ ] | ✅ | [ ] |
+| **1** | **Kiến thức và kỹ năng chuyên môn** | Nắm vững nguyên lý cốt lõi về AWS Cloud, mô hình RAG và quy trình đóng gói container; áp dụng hiệu quả vào bài lab và đề án | ⬜ | ✅ | ⬜ |
+| **2** | **Khả năng học hỏi và tiếp thu** | Nhạy bén với công nghệ mới (Generative AI, Vector Database), chủ động nghiên cứu tài liệu kỹ thuật tiếng Anh chính thống | ✅ | ⬜ | ⬜ |
+| **3** | **Tính chủ động trong công việc** | Tự giác lập kế hoạch cá nhân, chuẩn bị môi trường lab, tìm hiểu kiến trúc lưu trữ bền vững mà không phụ thuộc chỉ dẫn từng bước | ✅ | ⬜ | ⬜ |
+| **4** | **Tinh thần trách nhiệm** | Theo dõi sát sao tiến độ tuần, hoàn tất đầy đủ nhiệm vụ được giao và đối soát bằng chứng kết quả cẩn trọng | ⬜ | ✅ | ⬜ |
+| **5** | **Ý thức kỷ luật và chuyên cần** | Chấp hành đúng quy định chương trình, tham gia đầy đủ các buổi hướng dẫn và duy trì lịch tự học tại nhà đều đặn | ✅ | ⬜ | ⬜ |
+| **6** | **Tính cầu tiến và tiếp thu góp ý** | Lắng nghe phản hồi từ Mentor và đồng đội, thẳng thắn nhìn nhận hạn chế để điều chỉnh phương pháp làm việc nhanh chóng | ✅ | ⬜ | ⬜ |
+| **7** | **Kỹ năng giao tiếp và báo cáo** | Trình bày mạch lạc ý tưởng kỹ thuật, báo cáo tiến độ đúng hẹn và mô tả vấn đề/lỗi vận hành rõ ràng | ⬜ | ✅ | ⬜ |
+| **8** | **Kỹ năng làm việc nhóm** | Hợp tác tích cực, chia sẻ tài liệu, trao đổi giải pháp cởi mở và hỗ trợ các thành viên hoàn thành mục tiêu chung | ⬜ | ✅ | ⬜ |
+| **9** | **Tác phong ứng xử chuyên nghiệp** | Thể hiện thái độ tôn trọng, lịch thiệp, giữ gìn uy tín tập thể và tuân thủ văn hóa ứng xử trong môi trường doanh nghiệp | ✅ | ⬜ | ⬜ |
+| **10** | **Tư duy giải quyết vấn đề** | Phân tích nguyên nhân gốc rễ (RCA), kiểm tra giả thuyết từng bước và đưa ra phương án xử lý sự cố có cơ sở | ⬜ | ✅ | ⬜ |
+| **11** | **Mức độ đóng góp vào đề tài** | Đóng góp thực tế vào kiến trúc giải pháp, kiểm thử 24 testcase, cấu hình bảo mật và xây dựng tài liệu Workshop song ngữ | ⬜ | ✅ | ⬜ |
+| **12** | **Đánh giá tổng thể quá trình** | Mức độ hoàn thành trọn vẹn mục tiêu thực tập và sự tiến bộ rõ rệt về tư duy kỹ thuật đám mây | ⬜ | ✅ | ⬜ |
 
 ---
 
