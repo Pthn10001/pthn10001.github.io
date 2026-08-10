@@ -33,7 +33,7 @@ chapter: false
 
 &emsp; **Thời gian thực tập:** Từ ngày 22/06/2026 đến ngày 12/08/2026
 
-<img src="../images/avatar.png?v=2" alt="Chân dung sinh viên Phan Thị Hồng Nhiên" style="max-width:280px; border-radius:8px; margin: 15px 0;" />
+<img src="../images/avatar.png?v=2" alt="Chân dung sinh viên Phan Thị Hồng Nhiên" style="display:block; width:100%; max-width:400px; border-radius:8px; margin:15px auto;" />
 
 
 

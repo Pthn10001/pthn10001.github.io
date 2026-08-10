@@ -36,7 +36,7 @@ chapter: false
 
 &emsp; **Internship Duration:** From 22/06/2026 to 12/08/2026
 
-<img src="images/avatar.png" alt="Student portrait - Phan Thi Hong Nhien" style="max-width:280px; border-radius:8px; margin: 15px 0;" />
+<img src="images/avatar.png" alt="Student portrait - Phan Thi Hong Nhien" style="display:block; width:100%; max-width:400px; border-radius:8px; margin:15px auto;" />
 
 ### Report Content
 
